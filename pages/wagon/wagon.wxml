@@ -1,0 +1,60 @@
+<view class="index">
+  <view class="wagon-hd">
+    <view class="h1">1300+ talented students sharing the same skills & passion.</view>
+  </view>
+</view>
+
+<view class="wagon-wrap">
+  <view class="tc">
+    <image class="wagon-img" src="/image/white_logo_red_font.png"></image>
+  </view>
+  <view class="desc">Le Wagon is a coding school founded in 2013 and running in 19 locations worldwide. <text class="em">Our mission is to bring technical skills to creative people.</text></view>
+</view>
+
+<view class="wagon-wrap">
+      <view class="h3">One of the best tech communities in the world.</view>
+      <view class="desc">Le Wagon is an intensive, full-time 9-week bootcamp that teaches creative people to code the startup way. Our curriculum is full-stack web development from Back-End (Ruby on Rails) to Front-End (HTML,CSS, JavaScript and various libraries).
+      </view>
+      <view class="desc">All the students of Le Wagon share the same technical background and apply industry best practices. This mix between diversity & technical expertise makes our community unique.
+      </view>
+</view>
+
+<view class="wagon-wrap">
+      <view class="h3">Become a hiring partner.</view>
+      <view class="desc">Le Wagon's network allows fast-growing companies to hire directly from our alumni. We'll push your offers, organise a casual HR meeting to promote your organisation's culture and vision. 
+      </view>
+</view>
+<view class="desc tc">Get in touch:</view>
+  <view class="cta">
+    <button class="btn-gray">shanghai@lewagon.com</button>
+  </view>
+
+<view class="wagon-wrap quotes">
+<image class="google" src="/image/google.png"></image>
+
+  <view class="quote">“Le Wagon really knows how to bring complementary tech skills and culture to people with a business background. Their vision of technology is unique.”</view>
+  <view class="author">– Marion Grandjean, Business Associate at Google</view>
+</view>
+
+<view class="wagon-wrap quotes">
+<image class="uber" src="/image/uber.png"></image>
+
+  <view class="quote">
+“Le Wagon allows me to understand better Uber's product roadmap, and to be able to explain simply concepts such as API integration to our partners.”</view>
+  <view class="author">– Emeric Henon,   Marketing at Uber</view>
+</view>
+
+
+<view class="wagon-wrap quotes">
+<image class="techcrunch" src="/image/techcrunch.png"></image>
+
+<view class="quote">
+Le Wagon "is quietly becoming a major coding Bootcamp"
+</view>
+<view class="author">– TechCrunch, 2016</view>
+
+</view>
+
+<view class="wagon-footer">
+  
+</view>

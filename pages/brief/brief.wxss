@@ -1,0 +1,38 @@
+/**index.wxss**/
+.hd {
+  text-align: center;
+  padding: 50rpx;
+}
+
+.logo {
+  width: 86rpx;
+  height: 86rpx;
+}
+
+.form {
+  background-color: #F4F4F4;
+  padding:60rpx 40rpx;
+}
+
+textarea {
+    padding: 25rpx 0;
+    font-size: 30rpx;
+}
+.textarea-wrp {
+    padding: 0 25rpx;
+    background-color: #fff;
+}
+
+.checkbox {
+  padding-left:30rpx;
+}
+
+.page-section-details {
+  margin-top: 5rpx;
+  color: #888888;
+  font-size: 22rpx;
+  text-align: center;
+  padding-left: 30rpx;
+  padding-right: 30rpx;  
+}
+

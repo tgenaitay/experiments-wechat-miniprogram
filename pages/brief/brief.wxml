@@ -1,0 +1,66 @@
+<!--index.wxml-->
+<view class="index">
+  <view class="hd">
+  <image class="logo" src="/image/red_car_small.png"></image>
+   <view class="desc">NGOs, Startups, Entrepreneurs: tell us how we can help. From UI design to full-stack development, our alumni accept all kind of offers. They can also form a killer team to answer your quick prototyping needs.</view>
+  </view>
+</view>
+
+<view class="sep"></view>
+
+<view class="container form">
+<form bindsubmit="bindFormSubmit">
+
+  <view class="page-body">
+
+    <view class="page-section">
+      <view class="page-section-title">1. Your contact details</view>
+      <view class="textarea-wrp">
+        <textarea placeholder="name" value="{{userInfo.nickName}}" name="nickName" auto-height />
+      </view>
+      <view class="textarea-wrp">
+        <textarea auto-focus="true" placeholder="email@email.com" name="email" auto-height />
+      </view>
+      <view class="textarea-wrp">
+        <textarea placeholder="+86 185******" name="phone" auto-height />
+      </view>
+      <view class="textarea-wrp">
+        <textarea placeholder="project/company name" name="company" auto-height />
+      </view>              
+    </view>
+
+    <view class="page-section">
+      <view class="page-section-title">2. What are you looking for?</view>
+      <text class="page-section-details">Describe the job, pitch or product; technologies involved...</text>
+      <view class="textarea-wrp">
+        <textarea style="height: 10em" placeholder="" name="description" maxlength="-1" />
+      </view>
+    </view>
+
+    <view class="page-section">
+      <view class="page-section-title">3. Your offer</view>
+      <checkbox-group name="offer">
+        <view class="checkbox">
+          <checkbox value="full-time" checked="true"/>Full time position
+        </view>
+        <view class="checkbox">
+          <checkbox value="part-time"/>Part time hire
+        </view>
+        <view class="checkbox">
+          <checkbox value="freelance"/>Freelance work
+        </view>
+        <view class="checkbox">
+          <checkbox value="partnership"/>Partnership!
+        </view>
+      </checkbox-group>      
+    </view> 
+           
+    <view class="btn-area">
+      <button type="primary" form-type="submit" loading="{{loading}}" bindtap="setLoading">Send</button>
+    </view>
+
+  </view>
+
+</form>
+</view>
+

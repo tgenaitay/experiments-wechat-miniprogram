@@ -1,0 +1,18 @@
+<!--index.wxml-->
+<view class="index">
+  <view class="index-hd">
+    <image class="index-logo" src="/image/red_car_small.png"></image>
+    <view class="h1">Need a tech talent?</view>
+    <view class="index-wrap">
+      <view class="desc">Le Wagon is an intensive, product-driven coding bootcamp in China and 19 locations worldwide. We have trained 1300+ creative entrepreneurs.</view>
+      <view class="h3">Our alumni welcome your offers.</view>
+      <view class="desc"> They love to build <text class="em">beautiful products</text> using their full-stack web development skills.</view>
+    </view>
+  </view>
+</view>
+<view class="container">
+  <view class="cta">
+    <navigator url="/pages/brief/brief" class="btn">{{brief}}</navigator>
+  </view>
+    <text class="cta-details">Full-time positions or freelance work, let us know how they can help. No commission taken.</text>
+</view>

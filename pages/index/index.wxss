@@ -1,0 +1,51 @@
+/**index.wxss**/
+.index-hd {
+  text-align: center;
+  padding: 50rpx 50rpx 0rpx 50rpx;
+}
+.index-bd {
+  padding: 0 30rpx 40rpx;
+}
+.index-ft {
+  padding-bottom: 20rpx;
+  text-align: center;
+}
+.index-logo {
+  width: 86rpx;
+  height: 86rpx;
+}
+
+.index-wrap {
+  border-top:1px solid lightgray;
+  padding:10px 0px;
+  margin:10px 15px;
+}
+
+.h3 {
+  margin-top: 20rpx;
+}
+
+/**btn**/
+
+.cta {
+  margin-top: 20px;
+}
+
+.cta-details {
+  margin-top: 20rpx;
+  color: #888888;
+  font-size: 22rpx;
+  text-align: center;
+  padding:0px 30px;
+}
+
+.btn {
+  background-color: #D03232;
+  color:white;
+  padding: 30rpx;
+  border-radius: 3px;
+  font-size: 35rpx;
+  width: 500rpx;
+  text-align: center;
+  font-weight:bolder;
+}

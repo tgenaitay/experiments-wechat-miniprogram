@@ -1,0 +1,102 @@
+/**app.wxss**/
+
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20rpx 20px;
+  box-sizing: border-box;
+} 
+
+/* reset */
+
+page {
+  font-size: 32rpx;
+  line-height: 1.6;
+  font-family: Avenir, Helvetica, sans-serif;
+}
+checkbox, radio{
+  margin-right: 10rpx;
+}
+button{
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+}
+form{
+  width: 100%;
+}
+
+/* lib */
+
+.h1 {
+  font-weight:800;
+  font-size: 48rpx; 
+}
+
+.h3 {
+  font-weight:bold;
+  font-size: 30rpx; 
+}
+
+.sep {
+  border-bottom:1px solid lightgray;
+}
+
+.em {
+  font-style: italic;
+  color:#D03232;
+}
+
+.strong{
+  font-weight: bold;
+}
+
+.tc{
+  text-align: center;
+}
+
+.desc {
+  margin-top: 20rpx;
+  color: #888888;
+  font-size: 28rpx;
+}
+
+.page-section{
+  width: 100%;
+  margin-bottom: 60rpx;
+}
+
+.page-section_center{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.page-section:last-child{
+  margin-bottom: 0;
+}
+
+.page-section-gap{
+  box-sizing: border-box;
+  padding: 0 30rpx;
+}
+
+.page-section-spacing{
+  box-sizing: border-box;
+  padding: 0 80rpx;
+}
+
+.page-section-title{
+  font-size: 28rpx;
+  color: black;
+  margin-bottom: 10rpx;
+  padding-left: 30rpx;
+  padding-right: 30rpx;
+}
+
+.page-section-gap .page-section-title{
+  padding-left: 0;
+  padding-right: 0;
+}
