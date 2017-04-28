@@ -2,7 +2,7 @@
 // import Leancloud.cn library to store objects on the cloud
 const AV = require('../../utils/av-weapp-min.js');
 const Brief = require('../../model/brief.js');
-
+var app = getApp()
 Page({
   // build rough data for the page
   data: {

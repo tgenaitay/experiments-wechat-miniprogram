@@ -26,7 +26,7 @@
 </view>
 <view class="desc tc">Get in touch:</view>
   <view class="cta">
-    <button class="btn-gray">shanghai@lewagon.com</button>
+    <button class="btn-gray">shanghai@lewagon.org</button>
   </view>
 
 <view class="wagon-wrap quotes">
