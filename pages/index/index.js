@@ -3,7 +3,7 @@ var app = getApp()
 Page({
   // build rough data for the page
   data: {
-    brief: 'Send a brief in 1 minute',
+    CTA: 'Click me please',
     userInfo: {}
   },
   // load data and log success

@@ -1,51 +1,83 @@
-/**index.wxss**/
-.index-hd {
-  text-align: center;
-  padding: 50rpx 50rpx 0rpx 50rpx;
-}
-.index-bd {
-  padding: 0 30rpx 40rpx;
-}
-.index-ft {
-  padding-bottom: 20rpx;
-  text-align: center;
-}
-.index-logo {
-  width: 86rpx;
-  height: 86rpx;
-}
-
-.index-wrap {
-  border-top:1px solid lightgray;
-  padding:10px 0px;
-  margin:10px 15px;
-}
-
-.h3 {
-  margin-top: 20rpx;
-}
-
 /**btn**/
 
 .cta {
-  margin-top: 20px;
+  margin-top: 50px;
 }
 
 .cta-details {
   margin-top: 20rpx;
   color: #888888;
-  font-size: 22rpx;
+  font-size: 30rpx;
   text-align: center;
   padding:0px 30px;
 }
 
 .btn {
-  background-color: #D03232;
-  color:white;
+  background-color: #90E5FE;
+  color:#0C2A4C;
   padding: 30rpx;
-  border-radius: 3px;
+  border-radius: 25px;
   font-size: 35rpx;
   width: 500rpx;
   text-align: center;
   font-weight:bolder;
+}
+
+.main {
+  padding-top: 0px;
+}
+.main .container {
+  background-color: #0C2A4C;
+  max-width: 568px;
+  padding: 80px;
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+.main .container .h1 {
+  color: #fff;
+}
+.main .container .sub {
+  color: #90E5FE;
+}
+.wave {
+  background: url(http://ac-mDPQY4rW.clouddn.com/ffdc0858366e488af12d.svg) repeat-x;
+  position: absolute;
+  bottom: -24px;
+  left: 0;
+  right: 0;
+  width: 200%;
+  height: 43px;
+  animation: wave 10s cubic-bezier(0.3, 0.45, 0.6, 0.5) infinite;
+}
+
+.wave.wave-2 {
+  opacity: .3;
+  left: -24px;
+  bottom: -20px;
+  animation: wave 15s cubic-bezier(0.3, 0.45, 0.6, 0.5) infinite;
+}
+.wave.wave-3 {
+  opacity: .6;
+  left: -12px;
+  bottom: -28px;
+  animation: wave-reverse 20s cubic-bezier(0.3, 0.45, 0.6, 0.5) infinite;
+}
+
+@keyframes wave {
+  0% {
+    background-position-x: 0;
+  }
+  100% {
+    background-position-x: 240px;
+  }
+}
+@keyframes wave-reverse {
+  0% {
+    background-position-x: 240px;
+  }
+  100% {
+    background-position-x: 0;
+  }
 }
