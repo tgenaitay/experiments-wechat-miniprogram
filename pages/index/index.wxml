@@ -1,17 +1,9 @@
 <!--index.wxml-->
-<view class="main">
-  <view class="container">
-    <text class="h1">Hello boy</text>
-    <text class="sub">this is an experiment</text>
-    <view class="wave wave-1"></view>
-    <view class="wave wave-2"></view>
-    <view class="wave wave-3"></view>
-  </view>
-</view>
-
-<view class="container">
-  <view class="cta">
-    <navigator url="#" class="btn">{{CTA}}</navigator>
-  </view>
-  <text class="cta-details">Here is why.</text>
+<view id='stars'></view>
+<view id='stars2'></view>
+<view id='stars3'></view>
+<view id='title'>
+  <text>
+    CHAMPAGNE!
+  </text>
 </view>

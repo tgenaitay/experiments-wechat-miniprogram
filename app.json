@@ -3,7 +3,7 @@
     "pages/index/index"
   ],
   "window":{
-    "navigationBarBackgroundColor": "#0C2A4C",
+    "navigationBarBackgroundColor": "#D1B78F",
     "navigationBarTextStyle": "white",
     "navigationBarTitleText": "",
     "backgroundColor": "#eeeeee",
