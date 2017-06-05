@@ -18,5 +18,11 @@ Page({
       });
     }
     
+  },
+  onShareAppMessage: function () {
+    return {
+      title: 'Le Wagon coding school',
+      path: 'pages/wagon/wagon'
+    }
   }
 })

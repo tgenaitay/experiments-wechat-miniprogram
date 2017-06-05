@@ -9,6 +9,7 @@
     "navigationBarTextStyle": "white",
     "navigationBarTitleText": "Le Wagon",
     "backgroundColor": "#eeeeee",
+    "selectedColor": "#D03232",
     "backgroundTextStyle": "light"
   },
   "tabBar": {

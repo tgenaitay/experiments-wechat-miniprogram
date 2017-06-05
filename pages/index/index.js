@@ -15,5 +15,11 @@ Page({
         userInfo:userInfo
       })
     })
+  },
+  onShareAppMessage: function () {
+    return {
+      title: 'Le Wagon coding school',
+      path: 'pages/index/index'
+    }
   }
 })
