@@ -1,8 +1,6 @@
 {
   "pages":[
-    "pages/index/index",
-    "pages/brief/brief",
-    "pages/wagon/wagon"
+    "pages/index/index"
   ],
   "window":{
     "navigationBarBackgroundColor": "#D03232",
@@ -11,18 +9,5 @@
     "backgroundColor": "#eeeeee",
     "selectedColor": "#D03232",
     "backgroundTextStyle": "light"
-  },
-  "tabBar": {
-    "list": [{
-      "pagePath": "pages/index/index",
-      "iconPath": "image/work.png",
-      "selectedIconPath": "image/work-hover.png",
-      "text": "Brief"
-    }, {
-      "pagePath": "pages/wagon/wagon",
-      "iconPath": "image/about.png",
-      "selectedIconPath": "image/about-hover.png",
-      "text": "About"
-    }]
   }
 }
