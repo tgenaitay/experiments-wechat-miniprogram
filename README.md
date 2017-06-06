@@ -1,7 +1,9 @@
 ## Le Wagon MP experiments
 
+This project is loaded with various experimentations. Go ahead to discover them!
+
 ### How to use it:
-Download this repo, open with the WeChat IDE then switch to the various branches:
+Fork/clone this repo, open it with the WeChat IDE then switch over to the various git branches (`git checkout branchname`)
 
 ### Branches:
 - Champagne: experimenting pseudo-classes and keyframes
