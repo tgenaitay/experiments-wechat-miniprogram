@@ -1,9 +1,11 @@
 <!--pages/map/map.wxml-->
 <view class="container">  
-  <text class="h1">Where we are:</text>
+  <text class="h1">Playing with geolocation</text>
   <view class="page-section tc">
-  <map id="LeWagonMap" longitude="{{location.longitude}}" latitude="{{location.latitude}}" scale="14" markers="{{markers}}" bindmarkertap="markertap" polyline="{{polyline}}" bindregionchange="regionchange" show-location style="width: 100%; height: 400px;"></map>
+  <map id="LeWagonMap" longitude="{{location.longitude}}" latitude="{{location.latitude}}" scale="14" markers="{{markers}}" bindmarkertap="markertap" polyline="{{polyline}}" bindregionchange="regionchange" show-location style="width: 100%; height: 300px;"></map>
   </view>
+  <text class="h3">Want to find us?</text>
+  <button bindtap="showWagonLocation" class="btn">Locate Le Wagon</button>
   <text class="h3">Where are you?</text>
-  <button bindtap="findLocation" class="btn">Locate me on the map</button>
+  <button bindtap="findUserLocation" class="btn cta">Locate me on the map</button>
 </view>
