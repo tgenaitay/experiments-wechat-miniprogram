@@ -23,6 +23,7 @@ checkbox, radio{
 button{
   margin-top: 20rpx;
   margin-bottom: 20rpx;
+  font-size: 28rpx;
 }
 form{
   width: 100%;
@@ -51,7 +52,6 @@ form{
 
 .em {
   font-style: italic;
-  color:#D03232;
 }
 
 .strong{

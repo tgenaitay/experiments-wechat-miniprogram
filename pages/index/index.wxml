@@ -2,7 +2,7 @@
 <view class="main">
   <view class="container">
     <text class="h1">Hello boy</text>
-    <text class="sub">this is an experiment</text>
+    <text class="sub">this is an experiment with SVG and keyframes</text>
     <view class="wave wave-1"></view>
     <view class="wave wave-2"></view>
     <view class="wave wave-3"></view>
@@ -11,7 +11,12 @@
 
 <view class="container">
   <view class="cta">
-    <navigator url="#" class="btn">{{CTA}}</navigator>
+    <button class="btn" bindtap="swingMe" animation="{{animationData.cta}}">{{btn.CTA}}</button>
   </view>
-  <text class="cta-details">Here is why.</text>
+  <text class="cta-details">This button will animate through <text class="em">wx.createAnimation</text></text>
+</view>
+
+<view class="container">
+  <button bindtap="hideIt" animation="{{animationData.cta}}">{{btn.hide}}</button>
+  <view class="tc">{{poof}}</view>
 </view>
