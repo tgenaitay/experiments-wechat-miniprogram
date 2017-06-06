@@ -5,8 +5,8 @@
   "window":{
     "navigationBarBackgroundColor": "#D03232",
     "navigationBarTextStyle": "white",
-    "navigationBarTitleText": "Le Wagon",
-    "backgroundColor": "#eeeeee",
+    "navigationBarTitleText": "Experiments",
+    "backgroundColor": "#fdfdfd",
     "selectedColor": "#D03232",
     "backgroundTextStyle": "light"
   }

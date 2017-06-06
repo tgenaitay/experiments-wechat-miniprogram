@@ -1,15 +1,19 @@
 <!--index.wxml-->
 <view class="index">
   <view class="index-hd">
-    <image class="index-logo" src="/image/red_car_small.png"></image>
-    <view class="h1">This is a playground</view>
+    <image class="index-logo" src="/image/lw.gif"></image>
+    <view class="h1">This is a playground app</view>
     <view class="index-wrap">
       <view class="desc">
-      Please switch over to git branches:
-        <view class="desc tl">- Champagne</view>
-        <view class="desc tl">- Waves</view>
-        <view class="desc tl">- Vibrate</view>
+      This project is loaded with various experimentations. Go ahead to discover them by switching over to git branches:
+        <view class="desc tl branch">1. champagne</view>
+        <view class="desc tl branch">2. waves</view>
+        <view class="desc tl branch">3. vibrate</view>
+        <view class="desc tl branch">4. location</view>
       </view>
+    </view>
+    <view class="index-wrap">
+      <view class="code">git checkout <text class="em">branchname</text></view>
     </view>
   </view>
 </view>
