@@ -4,6 +4,6 @@
 Download this repo, open with the WeChat IDE then switch to the various branches:
 
 ### Branches:
-- Champagne
-- Waves
-- Vibrate
+- Champagne: experimenting pseudo-classes and keyframes
+- Waves: experimenting keyframes and SVG
+- Vibrate: experimenting wx.vibrateLong
