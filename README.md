@@ -7,6 +7,6 @@ Fork/clone this repo, open it with the WeChat IDE then switch over to the variou
 
 ### Branches:
 - **Champagne**: experimenting pseudo-classes and keyframes
-- **Waves**: experimenting keyframes and SVG
+- **Waves**: experimenting SVG, keyframes and `wx.createAnimation`
 - **Vibrate**: experimenting `wx.vibrateLong`
 - **Location**: experimenting `<map>` and `wx.getLocation`
