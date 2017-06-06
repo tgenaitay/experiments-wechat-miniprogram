@@ -1,5 +1,7 @@
 ## Le Wagon MP experiments
 
+![](image/lw.gif)
+
 This project is loaded with various experimentations. Go ahead to discover them!
 
 ### How to use it:
