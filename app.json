@@ -3,11 +3,11 @@
     "pages/index/index"
   ],
   "window":{
-    "navigationBarBackgroundColor": "#D03232",
+    "navigationBarBackgroundColor": "#626FE6",
     "navigationBarTextStyle": "white",
     "navigationBarTitleText": "Le Wagon",
     "backgroundColor": "#eeeeee",
-    "selectedColor": "#D03232",
+    "selectedColor": "#626FE6",
     "backgroundTextStyle": "light"
   }
 }

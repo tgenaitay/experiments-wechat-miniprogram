@@ -16,6 +16,8 @@ page {
   font-size: 32rpx;
   line-height: 1.6;
   font-family: Avenir, Helvetica, sans-serif;
+  background-color: #8AACFF;
+  color:white;
 }
 checkbox, radio{
   margin-right: 10rpx;

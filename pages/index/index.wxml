@@ -1,14 +1,9 @@
 <!--index.wxml-->
-<view class="index">
-  <view class="index-hd">
-    <image class="index-logo" src="/image/red_car_small.png"></image>
-    <view class="h1">This is a playground</view>
-    <view class="index-wrap">
-      <view class="desc">
-      Please switch over to git branches:
-        <view class="desc tl">- Champagne</view>
-        <view class="desc tl">- Waves</view>
-      </view>
-    </view>
+<view class="container">
+
+  <view class="index-hd tc">
+    <text class="h3">How do you feel today?</text>
+    <button bindtap="vibratePhone" class="btn vb shake">Vibrate me now</button>
   </view>
+
 </view>
