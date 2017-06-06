@@ -35,12 +35,14 @@ form{
   font-weight:800;
   font-size: 48rpx;
   color:#E8AA8C;
+  margin-top:10px;
 }
 
 .h3 {
   font-weight:bold;
   font-size: 30rpx; 
   color:#5E616A;
+  margin-top:10px;
 }
 
 .sep {
