@@ -1,12 +1,12 @@
 {
   "pages":[
-    "pages/index/index"
+    "pages/map/map"
   ],
   "window":{
-    "navigationBarBackgroundColor": "#D03232",
+    "navigationBarBackgroundColor": "#5E616A",
     "navigationBarTextStyle": "white",
     "navigationBarTitleText": "Le Wagon",
-    "backgroundColor": "#eeeeee",
+    "backgroundColor": "#F9F3E6",
     "selectedColor": "#D03232",
     "backgroundTextStyle": "light"
   }
