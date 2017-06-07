@@ -14,11 +14,17 @@ App({
         'content-type': 'application/json'
       },
       success: function (res) {
+        console.log(res.statusCode);
         console.log("app is loaded with cats");
         that.globalData.catData = res.data
       },
       fail: function (res) {
-        console.log(res);
+        console.log(res.data);
+        console.log(res.statusCode);
+      },
+      complete: function (res) {
+        console.log(res.data);
+        console.log(res.statusCode);
       }
     })
     
