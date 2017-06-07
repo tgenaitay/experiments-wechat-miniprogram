@@ -1,12 +1,12 @@
 {
   "pages":[
-    "pages/index/index"
+    "pages/cats/cats"
   ],
   "window":{
-    "navigationBarBackgroundColor": "#D03232",
+    "navigationBarBackgroundColor": "#E1396C",
     "navigationBarTextStyle": "white",
-    "navigationBarTitleText": "Experiments",
-    "backgroundColor": "#fdfdfd",
+    "navigationBarTitleText": "Cats everywhere",
+    "backgroundColor": "#FEBFB3",
     "selectedColor": "#D03232",
     "backgroundTextStyle": "light"
   }

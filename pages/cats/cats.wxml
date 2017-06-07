@@ -1,0 +1,6 @@
+<!--pages/cats/cats.wxml-->
+<view class="container">
+<view wx:for="{{catData.data}}">
+  <image src="{{item.images.fixed_height.url}}" id="{{index}}" bindtap="imgToPhone"></image>
+</view>
+</view>
