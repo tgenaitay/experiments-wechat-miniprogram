@@ -10,6 +10,7 @@
         <view class="desc tl branch">2. waves</view>
         <view class="desc tl branch">3. vibrate</view>
         <view class="desc tl branch">4. location</view>
+        <view class="desc tl branch">5. thecatAPI</view>
       </view>
     </view>
     <view class="index-wrap">

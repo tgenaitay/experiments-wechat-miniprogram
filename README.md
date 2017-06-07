@@ -12,3 +12,4 @@ Fork/clone this repo, open it with the WeChat IDE then switch over to the variou
 - **Waves**: experimenting SVG, keyframes and `wx.createAnimation`
 - **Vibrate**: experimenting `wx.vibrateLong`
 - **Location**: experimenting `<map>` and `wx.getLocation`
+- **thecatAPI**: experimenting `wx:for` and `wx.request`
