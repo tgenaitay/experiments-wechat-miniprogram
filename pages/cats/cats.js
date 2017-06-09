@@ -1,3 +1,5 @@
+const AV = require('./utils/av-weapp-min.js');
+
 // pages/cats/cats.js
 var app = getApp()
 Page({
