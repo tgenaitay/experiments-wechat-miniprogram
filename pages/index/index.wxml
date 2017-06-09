@@ -2,7 +2,8 @@
 <view class="container">
 
   <view class="index-hd tc">
-    <text class="h3">How do you feel today?</text>
+    <view class="h3">How do you feel today? </view>
+    <view class="">Open this in your phone.</view>
     <button bindtap="vibratePhone" class="btn vb shake">Vibrate me now</button>
   </view>
 
