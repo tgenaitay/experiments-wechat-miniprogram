@@ -1,7 +1,8 @@
 // pages/map/map.js
 Page({
   data: {
-    location: {} // used to manipulate the map in the view
+    location: {}, // used to manipulate the map in the view
+    scale: '14' // used to zoom in later
   },
   findUserLocation: function (e) {
     var that = this
@@ -18,6 +19,7 @@ Page({
         // updating the map location and the marker
         that.setData({
           location: { latitude: latitude, longitude: longitude },
+          scale: '14',
           markers: [{
             iconPath: "/image/marker.png",
             id: 0,
@@ -29,6 +31,9 @@ Page({
             callout: { content: "You are here!", fontSize: 15, color: "#000000", display: "ALWAYS", padding: 10 }
           }]
         })
+      },
+      fail: function(res) {
+        console.log(res)
       }
     })
   },
@@ -37,6 +42,7 @@ Page({
     var LWlongitude = "121.443622";
     this.setData({
       location: { latitude: LWlatitude, longitude: LWlongitude },
+      scale: '16',
       markers: [{
         iconPath: "/image/marker.png",
         id: 0,
