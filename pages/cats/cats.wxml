@@ -1,7 +1,15 @@
 <!--pages/cats/cats.wxml-->
 <view class="container">
-<view wx:for="{{catData.data}}">
-<image src="{{item.images.fixed_height.url}}" id="{{index}}" bindtap="imgToPhone"></image>
+<view class="h1 tc sep">
+Unfortunately Giphy API is not in China: the server can't be whitelisted by Tencent...
+</view>
+<view class="h3 tc">
+Long press to save the GIF to your phone!
+</view>
+<view wx:for="{{catData.data}}" class="cats">
+<image src="{{item.images.fixed_height.url}}" id="{{index}}" bindlongtap="imgToPhone"></image>
 
 </view>
+<view class="h2">
+The cats will load only on your local machine.</view>
 </view>

@@ -1,1 +1,5 @@
 /* pages/cats/cats.wxss */
+
+.cats {
+  margin-top:20px;
+}

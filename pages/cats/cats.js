@@ -1,4 +1,3 @@
-const AV = require('./utils/av-weapp-min.js');
 
 // pages/cats/cats.js
 var app = getApp()
@@ -28,13 +27,28 @@ Page({
     var gifId = e.target.id
     console.log(gifId)
     console.log(this.data.catData.data[gifId].images.fixed_height.url)
-    var filepath = this.data.catData.data[gifId].images.fixed_height.url
-    wx.saveImageToPhotosAlbum({
-      filepath: '',
-      success(res) {
-        console.log(res)
+    var filepath = this.data.catData.data[gifId].images.fixed_height.url;
+    wx.authorize({
+      scope: 'scope.writePhotosAlbum',
+      success() {
+        wx.downloadFile({
+          url: filepath,
+          success: function (res) {
+            console.log(res.tempFilePath)
+            wx.saveImageToPhotosAlbum({
+              filepath: res.tempFilePath,
+              success(res) {
+                console.log(res)
+              },
+              fail(res) {
+                console.log(res)
+              }
+            })
+          }
+        })
       }
     })
+    
   },
   onHide: function () {
   

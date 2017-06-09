@@ -32,16 +32,20 @@ form{
 
 .h1 {
   font-weight:800;
-  font-size: 48rpx; 
+  font-size: 30rpx; 
+  margin: 10px; 
 }
 
 .h3 {
   font-weight:bold;
-  font-size: 30rpx; 
+  font-size: 28rpx;
+  margin: 10px;
+  color:#E1396C; 
 }
 
 .sep {
   border-bottom:1px solid lightgray;
+  padding:10px;
 }
 
 .em {

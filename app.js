@@ -1,13 +1,3 @@
-// app.js
-// import Leancloud.cn library to store objects on the cloud
-const AV = require('./utils/av-weapp-min.js');
-
-// initialize the Leancloud app https://leancloud.cn/docs/weapp.html
-AV.init({
-  appId: 'HjPUb8O5jCzs8OPIwWraChtq-gzGzoHsz',
-  appKey: 'sH7ADhsS3e2Wo3N2yCv47Rnd',
-});
-
 App({
   onLaunch: function() {
     console.log("app is launching");
@@ -23,8 +13,10 @@ App({
         'content-type': 'application/json'
       },
       success: function (res) {
+        // res contains all the HTTP request data
         console.log(res.statusCode);
         console.log("app is loaded with cats");
+        // we can save it to the globalData storage
         that.globalData.catData = res.data
       },
       fail: function (res) {
