@@ -3,6 +3,24 @@ page {
   height: 100%;
   background: linear-gradient(#D1B78F 0%, #F7E7CE 100%);
   overflow: hidden;
+  text-align: center;
+  font-size: 32rpx;
+  line-height: 1.6;
+  font-family: Avenir, Helvetica, sans-serif;  
+}
+
+#title {
+  color: #FFF;
+  font-weight: 300;
+  font-size: 20px;
+  letter-spacing: 10px;
+  padding-left: 10px;
+}
+
+.avatar {
+  width:90px;
+  height:90px;
+  border-radius:50%;
 }
 
 #stars {
@@ -54,20 +72,6 @@ page {
   height: 3px;
   background: transparent;
   box-shadow: 1167px 1867px #FFF , 638px 637px #FFF , 881px 824px #FFF , 1251px 906px #FFF , 1422px 94px #FFF , 1648px 187px #FFF , 1058px 700px #FFF , 482px 1337px #FFF , 1274px 999px #FFF , 1456px 1464px #FFF , 332px 294px #FFF , 1395px 570px #FFF , 543px 129px #FFF , 1047px 1902px #FFF , 292px 1135px #FFF , 1563px 590px #FFF , 909px 1734px #FFF , 12px 1658px #FFF , 467px 1060px #FFF , 1311px 110px #FFF , 1238px 608px #FFF , 458px 592px #FFF , 364px 817px #FFF , 534px 629px #FFF , 440px 1101px #FFF , 1961px 748px #FFF , 1725px 781px #FFF , 833px 780px #FFF , 638px 895px #FFF , 1178px 645px #FFF , 373px 1999px #FFF , 796px 242px #FFF , 1087px 1361px #FFF , 210px 1678px #FFF , 587px 1456px #FFF , 1520px 1339px #FFF , 990px 269px #FFF , 50px 216px #FFF , 1340px 1903px #FFF , 633px 1776px #FFF , 1876px 1480px #FFF , 1923px 228px #FFF , 1857px 1625px #FFF , 292px 841px #FFF , 1591px 1091px #FFF , 15px 1717px #FFF , 160px 59px #FFF , 440px 580px #FFF , 1133px 353px #FFF , 1130px 689px #FFF , 294px 385px #FFF , 1504px 1855px #FFF , 150px 1173px #FFF , 632px 2px #FFF , 1378px 1280px #FFF , 1574px 1665px #FFF , 490px 1150px #FFF , 258px 260px #FFF , 115px 11px #FFF , 1132px 1588px #FFF , 1804px 549px #FFF , 834px 433px #FFF , 305px 862px #FFF , 419px 12px #FFF , 462px 1596px #FFF , 1183px 694px #FFF , 1007px 427px #FFF , 466px 1715px #FFF , 1512px 1996px #FFF , 786px 805px #FFF , 545px 1025px #FFF , 225px 1528px #FFF , 31px 1774px #FFF , 133px 1558px #FFF , 965px 1311px #FFF , 1441px 1528px #FFF , 1202px 1517px #FFF , 902px 366px #FFF , 175px 1242px #FFF , 715px 848px #FFF , 1674px 43px #FFF , 87px 1189px #FFF , 1005px 1865px #FFF , 633px 1986px #FFF , 609px 214px #FFF , 254px 790px #FFF , 12px 698px #FFF , 372px 803px #FFF , 433px 841px #FFF , 1938px 243px #FFF , 1927px 1141px #FFF , 481px 601px #FFF , 1305px 1593px #FFF , 76px 331px #FFF , 234px 535px #FFF , 820px 950px #FFF , 406px 109px #FFF , 678px 180px #FFF , 135px 1967px #FFF , 88px 1538px #FFF;
-}
-
-#title {
-  color: #FFF;
-  text-align: center;
-  font-weight: 300;
-  font-size: 20px;
-  letter-spacing: 10px;
-  padding-left: 10px;
-}
-#title span {
-  background: -webkit-linear-gradient(white, #38495a);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 
 @keyframes animStar {

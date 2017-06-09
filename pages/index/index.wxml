@@ -2,8 +2,7 @@
 <view id='stars'></view>
 <view id='stars2'></view>
 <view id='stars3'></view>
+<image src="{{userInfo.avatarUrl}}" class="avatar"></image>
 <view id='title'>
-  <text>
-    CHAMPAGNE!
-  </text>
+  <text>CHAMPAGNE!</text>
 </view>

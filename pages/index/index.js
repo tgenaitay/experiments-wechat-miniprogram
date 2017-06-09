@@ -11,10 +11,12 @@ Page({
     /// userinfo
     var that = this
     app.getUserInfo(function(userInfo){
+      console.log(userInfo);
       that.setData({
         userInfo:userInfo
       })
     })
+    console.log(this.data.userInfo.nickName)
   }
 })
 
