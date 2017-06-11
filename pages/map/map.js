@@ -51,7 +51,7 @@ Page({
         width: 50,
         height: 50,
         title: "Le Wagon",
-        callout: { content: "We are here!", fontSize: 15, color: "#000000", display: "ALWAYS", padding: 10 }
+        callout: { content: "Le Wagon is here", fontSize: 15, color: "#000000", display: "ALWAYS", padding: 10 }
       }]
         })
   },  
